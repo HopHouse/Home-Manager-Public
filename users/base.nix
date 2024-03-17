@@ -4,6 +4,7 @@
   imports = [
     ./shared/home-manager-auto-upgrade-flake.nix
   ];
+
   programs.home-manager.enable = true;
 
   services.home-manager.autoUpgradeFlake = {

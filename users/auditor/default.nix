@@ -2,12 +2,11 @@
 
 {
   imports = [
-    ../../base.nix
+    ../base/default.nix
 
-    ./packages.nix
+    ./gpg.nix
     ./shell.nix
+    ./navigator.nix
     ./ssh.nix
-    ./editors.nix
-    ./keyboard.nix
   ];
 }

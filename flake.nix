@@ -28,7 +28,7 @@
             };
           }
 
-          ./users/operators/base
+          ./users/base
 
           {
             programs.tmux.plugins = [
@@ -66,7 +66,7 @@
             };
           }
 
-          ./users/usuals/auditor
+          ./users/auditor
 
           ./users/shared/pentest_packages.nix
         ];
@@ -84,7 +84,7 @@
             };
           }
 
-          ./users/usuals/auditor
+          ./users/auditor
         ];
       };
 
@@ -99,7 +99,7 @@
             };
           }
 
-          ./users/usuals/auditor
+          ./users/auditor
         ];
       };
     };

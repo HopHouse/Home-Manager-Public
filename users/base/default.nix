@@ -2,19 +2,18 @@
 
 {
   imports = [
-    ../../base.nix
+    ../base.nix
 
+    ./keyboard.nix
+    ./git.nix
     ./packages.nix
     ./shell.nix
     ./ssh.nix
-    ./editors.nix
-    ./navigator.nix
-    ./keyboard.nix
-    ./gpg.nix
+
+    ../shared/editors.nix
   ];
 
   home.sessionVariables = {
-    #TERMINAL = "alacritty";
     EDITOR = "vim";
   };
 }
