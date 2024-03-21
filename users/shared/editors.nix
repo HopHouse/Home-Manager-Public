@@ -5,6 +5,9 @@ let
     pkgs.ranger
     pkgs.ctags
     pkgs.ripgrep 
+
+    # Markdown
+    pkgs.glow
     
     # Nvim - NvChad
     pkgs.nodejs_21
