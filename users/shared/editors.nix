@@ -98,7 +98,7 @@ in
     vimdiffAlias = true;
 
     # nvim plugin providers
-    #withNodeJs = true;
+    withNodeJs = true;
     #withRuby = true;
     #withPython3 = true;
 
