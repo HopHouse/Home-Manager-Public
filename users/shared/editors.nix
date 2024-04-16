@@ -8,7 +8,7 @@ let
 
     # Markdown reader
     pkgs.glow
-    
+
     # Nvim - NvChad or LazyVim
     pkgs.fd
     pkgs.lazygit
