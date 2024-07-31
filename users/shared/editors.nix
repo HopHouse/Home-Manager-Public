@@ -38,7 +38,7 @@ in
       golang.go
       ms-python.python
       ms-vscode.hexeditor
-      ms-vscode.PowerShell
+      ms-vscode.powerShell
       ms-vscode-remote.remote-ssh
       ms-vscode.cpptools
       redhat.vscode-yaml
