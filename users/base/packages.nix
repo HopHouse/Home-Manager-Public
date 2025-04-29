@@ -47,19 +47,19 @@
     zip
 
     # User
-    keepassxc
-    libreoffice
-    yubikey-manager
+    #keepassxc
+    #libreoffice
+    #yubikey-manager
 
     # Dev
-    vscodium
-    git
-    nix
-    rustup
+    #vscodium
+    #git
+    #nix
+    #rustup
     #cargo
     #rustc
     #rustfmt
-    gcc
+    #gcc
 
     # Useful nix related tools
     #cachix # adding/managing alternative binary caches hosted by Cachix
