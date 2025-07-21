@@ -10,10 +10,6 @@
     ./shell.nix
     ./ssh.nix
 
-    ../shared/editors.nix
+    ../shared/editors/lazyvim.nix
   ];
-
-  home.sessionVariables = {
-    EDITOR = "vim";
-  };
 }
